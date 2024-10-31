@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-func Run() {
+func Day1() {
 	input, err := u.GetInput(2015, 1)
 
 	if err != nil {

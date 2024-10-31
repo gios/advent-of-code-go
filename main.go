@@ -1,7 +1,7 @@
 package main
 
 import (
-	day1 "adventofcode/v2015"
+	v2015 "adventofcode/v2015"
 	"flag"
 	"log"
 )
@@ -16,7 +16,9 @@ func main() {
 	case 2015:
 		switch *day {
 		case 1:
-			day1.Run()
+			v2015.Day1()
+		case 2:
+			v2015.Day2()
 		default:
 			log.Panicln("Day not implemented")
 		}
